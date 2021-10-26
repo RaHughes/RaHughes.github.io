@@ -6,18 +6,19 @@ body {
     padding: 1%;
 	font-family:'Open Sans', sans-serif;
 	font-weight: 400;
-}
-section #text {
-	color: #ffffff;
+    background-color: #5D5C61;
+    vertical-align: middle;
+    
 }
 
 /*********** Nav **********/
 header {
-	background-color: #839ca3;
+	background-color: #B1A296;
     text-align: center;
 	height: 75px;
 	width: 100%;
-	border: 5px solid #363636;
+	border: 5px solid #b4b4b4;
+    border-radius: 25px;
 }
 
 /*********** Description *************/
@@ -27,15 +28,16 @@ header {
     padding: 10px;
     margin-top: 1%;
     display: inline-block;
-    border: 5px solid #363636;
-    background-color: #839ca3
+    border: 5px solid #b4b4b4;
+    border-radius: 25px;
+    background-color: #B1A296;
 }
 
 #description-img {
 	height:90%;
 	width:25%;
     border-radius: 50% 50% 50% 50%;
-    border: 5px solid #363636;
+    border: 5px solid #b4b4b4;
 }
 
 .section-desc {
@@ -45,38 +47,44 @@ header {
     text-align: center;
     padding: 5px;
     background-color: #ffffff;
-    border: 5px solid #363636;
+    border: 5px solid #b4b4b4;
+    border-radius: 25px;
 }
 
 /*********** Cards *************/
 
 #card-section{
     margin-top: 10px;
-	height: 1000px;
+	height: 1500px;
 	text-align: center;
 }
 
 .card {
-    background-color: #839ca3;
+    background-color: #B1A296;
     padding: 10px;
 	display: inline-block;
-    padding: 10px;
+    padding: 15px;
 	width: 42%;
-    height: 40%;
+    height: 600px;
 	font-size: 20px;
 	text-align: center;
-    border: 5px solid #363636;
+    border: 5px solid #b4b4b4;
+    border-radius: 25px;
     margin: 2%;
 }
 
 .card-img {
-    border: 5px solid #363636;
+    margin: 5px;
+    border: 5px solid #b4b4b4;
+    border-radius: 25px;
     height: 40%
 }
 
 .card-desc{
-    border: 5px solid #363636;
-    height: 20%;
+    border: 5px solid #b4b4b4;
+    border-radius: 25px;
+    padding: 10px;
+    height: 30%;
     background-color: white;
 
 }
@@ -84,9 +92,10 @@ header {
 /*********** Footer *************/
 footer {
     margin-top: 10px;
-    background-color: #839ca3;
+    background-color: #B1A296;
     text-align: center;
 	height: 75px;
 	width: 100%;
-	border: 5px solid #363636;
+	border: 5px solid #b4b4b4;
+    border-radius: 25px;
 }
